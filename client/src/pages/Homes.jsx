@@ -3,33 +3,30 @@ import axios from "axios";
 import JobCard from "../components/JobCard";
 import SearchBar from "../components/SearchBar";
 import AddJobModal from "../components/AddJobModal";
+import { fetchJobs, searchJobs } from "../api/jobs";
 
 const HomePage = ({ showModal, setShowModal }) => {
     const [jobs, setJobs] = useState([]);
     const [filteredJobs, setFilteredJobs] = useState([]);
 
-    const fetchJobs = async () => {
+    const fetchJobList = async () => {
         try {
-            const response = await axios.get("http://localhost:5000/api/jobs");
+            const response = await fetchJobs();
             setJobs(response.data);
             setFilteredJobs(response.data);
+            // setFilteredJobs(response.data);
         } catch (error) {
             console.error("Failed to fetch jobs", error);
         }
     };
 
     useEffect(() => {
-        fetchJobs();
+        fetchJobList();
     }, []);
 
     const handleSearch = async (query) => {
         try {
-            const response = await axios.get(
-                "http://localhost:5000/api/jobs/search",
-                {
-                    params: query,
-                }
-            );
+            const response = await searchJobs(query);
             setFilteredJobs(response.data);
         } catch (error) {
             console.error("Search failed", error);

@@ -45,6 +45,15 @@ export default function App() {
                 {/* <Route path="/add-job" element={<AddJob />} /> */}
                 <Route path="/job/:id" element={<JobDetails />} />
             </Routes>
+            <div className="mt-14">
+                <footer className="bg-white shadow mt-4 fixed bottom-0 w-full">
+                    <div className="container mx-auto p-4 text-center">
+                        <p className="text-gray-600">
+                            &copy; 2023 JobBoard. All rights reserved.
+                        </p>
+                    </div>
+                </footer>
+            </div>
         </div>
     );
 }
