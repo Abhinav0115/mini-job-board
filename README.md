@@ -45,7 +45,7 @@ node server.js
 
 ## 📸 Preview
 
-![Home Screenshot](./screenshot/screenshot1.png)
-![Recipe Screenshot](./screenshot/screenshot2.png)
-![Category Screenshot](./screenshot/screenshot3.png)
-![Recipe Screenshot](./screenshot/screenshot4.png)
+![Home Screenshot](screenshot/Screenshot1.png)
+![Home Screenshot](./screenshot/Screenshot2.png)
+![Job Detail page Screenshot](./screenshot/Screenshot3.png)
+![Job Detail page Screenshot](./screenshot/Screenshot4.png)
