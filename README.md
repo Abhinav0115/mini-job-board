@@ -12,6 +12,12 @@ A full-stack **Job Board** web application built with modern technologies on bot
 
 ---
 
+## 🌐 Live
+
+[Backend Link](https://mini-job-board-ime2.onrender.com)
+
+---
+
 ## 📁 Project Structure
 
 - ├── **client/** # Frontend (Vite + React + Tailwind CSS)
