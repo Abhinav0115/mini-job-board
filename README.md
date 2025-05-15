@@ -26,7 +26,7 @@ A full-stack **Job Board** web application built with modern technologies on bot
 cd client
 npm install
 add .env file
-    VITE_API_BASE = "http://localhost:5000/api/jobs";
+    VITE_API_BASE = http://localhost:5000/api/jobs
 npm run dev
 
 ```
