@@ -35,7 +35,7 @@ cd server
 npm install
 
 add .env file
-    PATH=5000
+    PORT=5000
     MONGO_URI=mongodb://localhost:27017/mini_job_board
 
 node server.js
