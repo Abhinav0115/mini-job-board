@@ -42,3 +42,10 @@ add .env file
 
 node server.js
 ```
+
+## 📸 Preview
+
+![Home Screenshot](./screenshot/screenshot1.png)
+![Recipe Screenshot](./screenshot/screenshot2.png)
+![Category Screenshot](./screenshot/screenshot3.png)
+![Recipe Screenshot](./screenshot/screenshot4.png)
