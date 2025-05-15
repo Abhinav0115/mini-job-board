@@ -43,9 +43,7 @@ const HomePage = ({ showModal, setShowModal }) => {
 
     return (
         <div className="container mx-auto p-4 pt-1 min-h-screen">
-            {/* Header and Add Button */}
             <div className="flex justify-center items-center mb-4">
-                {/* <div></div> */}
                 <h1 className="text-4xl font-bold">Job Listings</h1>
                 {/* <button
                     onClick={() => setShowModal(true)}
